@@ -2,7 +2,7 @@ public class MyClass {
 
     public void printThree() {
 
-           int i = 3;
+           boolean i = true;
            System.out.println(i);
     }
 
