@@ -2,8 +2,8 @@ public class MyClass {
 
     public void printThree() {
 
-           boolean i = true;
-           System.out.println(i);
+        int i = 3;
+        System.out.println(i);
     }
 
     void printFirstTenSquares() {
@@ -16,8 +16,7 @@ public class MyClass {
          }
     }
 
-     void printNumber(int x, int y) {
-
+    void printNumber(int x, int y) {
          System.out.println(x);
-     }
+    }
 }

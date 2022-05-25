@@ -1,4 +1,4 @@
-from token import Token
+from token_ import Token
 
 V_TYPES = ['int', 'float', 'double', 'boolean', 'char', 'short', 'byte', 'long']
 LITERALS = ['=']
