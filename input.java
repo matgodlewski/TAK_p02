@@ -1,22 +1,8 @@
 public class MyClass {
-
-    public void printThree() {
-
-        int i = 3;
-        System.out.println(i);
-    }
-
-    void printFirstTenSquares() {
-
-         int i = 0;
-         while (i <= 10) {
-             int y = 3;
-             printNumber(i * i, 0);
-             i = i + 1;
-         }
-    }
-
-    void printNumber(int x, int y) {
-         System.out.println(x);
-    }
+  public static void doSomething(int a, int b) {
+    int c = b; int e = b; int d = 6;
+    if (d > 3) { if (c > 3) {
+      int c = 4; int d = 5;
+      System.out.println(c + e); } System.out.println(d); }
+  }
 }
